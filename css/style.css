@@ -1,0 +1,138 @@
+#topnav {
+    color: #D1D1D1;
+}
+
+body {
+    background-color: #252525;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 88;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+li {
+    display:inline-block;
+    padding: 90px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+ul li:hover {
+    color: #FFA7FB;
+}
+
+footer li:hover {
+    color: #FFA7FB;
+}
+
+#about {
+    color: #D1D1D1;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 80px;
+    width: 50%;
+    color: #D1D1D1;
+    padding: 90px;
+    margin: 0;
+    font-family: Helvetica Neue; font-weight: 400;
+    padding-bottom: -10px;
+}
+
+h2 {
+    font-size: 30px;
+    width: 50%;
+    color: #FFA7FB;
+    padding: 90px;
+    margin: 0;
+    font-family: Helvetica Neue; font-weight: 400;
+}
+
+p {
+    padding: 90px;
+    color: #D1D1D1;
+    font-size: 20px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 10px;
+    width: 40%;
+
+}
+
+
+#footer {
+    color: #D1D1D1;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    padding: px;
+    margin: 0;
+}
+
+#hero {
+    position: absolute;
+    mix-blend-mode: lighten;
+    top: -650px;
+    right: -400px;
+}
+
+#mySkills {
+    color: #D1D1D1;
+    font-size: 15px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.flexContainer1{
+    display: inline-grid;
+    grid-gap: 5px;
+    padding:
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+    'one two three'
+    'four five six';
+    width:100%;
+    <!-- I dont understand why this is working but it is -->
+}   
+
+#CCF {
+    right:-200px;
+    position: absolute;
+}
+
+#bookLook {
+    position: absolute;
+    right:-20px;
+    top:5400px;
+}
+
+@media screen and (max-width:600px) {
+    
+    .flexContainer1{
+        display: inline-grid;
+        grid-gap: 5px;
+        padding:
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas:
+        'one'
+        'two';
+    }   
+
+    #CCF {
+        display:none;
+    }
+
+    #ato {
+        display:none;
+    }
+    #bookLook {
+        display:none;
+    }
+}
+    
