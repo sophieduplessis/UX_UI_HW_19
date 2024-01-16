@@ -7,6 +7,7 @@ $('#topHeader').on("click", function(){
   });
 
   $('.sophieHeader').click(function(){
-    $(this).animate({fontSize: "100px" }, 1000 );
-    $(this).animate({fontSize: "90px" }, 2000 );
+    $(this).animate({fontSize: "90px" }, 1000 );
+    $(this).animate({fontSize: "80px" }, 2000 );
+    
   })

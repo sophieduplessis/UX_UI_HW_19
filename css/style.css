@@ -44,7 +44,7 @@ h1 {
     color: #D1D1D1;
     padding: 90px;
     margin: 0;
-    font-family: Helvetica Neue; font-weight: 400;
+    font-family: Helvetica Neue; font-weight: bold;
     padding-bottom: -10px;
 }
 
@@ -98,7 +98,7 @@ p {
     'one two three'
     'four five six';
     width:100%;
-    <!-- I dont understand why this is working but it is -->
+
 }   
 
 #CCF {
@@ -112,7 +112,7 @@ p {
     top:5400px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
     
     .flexContainer1{
         display: inline-grid;
